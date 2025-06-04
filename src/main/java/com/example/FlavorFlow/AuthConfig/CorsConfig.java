@@ -15,7 +15,7 @@ public class CorsConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
 
-        config.setAllowedOrigins(List.of("http://localhost:3000", "https://3000-firebase-studio-1748846424382.cluster-73qgvk7hjjadkrjeyexca5ivva.cloudworkstations.dev"));
+        config.setAllowedOrigins(List.of("http://localhost:3000/", "https://3000-firebase-studio-1748846424382.cluster-73qgvk7hjjadkrjeyexca5ivva.cloudworkstations.dev"));
         //   config.setAllowedOriginPatterns(List.of("*"));
 
         config.setAllowCredentials(true);
